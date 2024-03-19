@@ -1,0 +1,26 @@
+{
+  "name": "layout-designer-project-56",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/unhappymonday/layout-designer-project-56/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/unhappymonday/layout-designer-project-56/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unhappymonday/layout-designer-project-56.git"
+  },
+  "author": "Egor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unhappymonday/layout-designer-project-56/issues"
+  },
+  "homepage": "https://github.com/unhappymonday/layout-designer-project-56#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-scss": "^6.2.1"
+  }
+}

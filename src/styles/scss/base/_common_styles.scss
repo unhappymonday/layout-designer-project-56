@@ -1,0 +1,37 @@
+@use "../abstracts/variables" as v;
+
+:root {
+  @each $shade, $value in v.$color {
+    --#{$shade}: #{$value};
+  }
+
+  @each $size, $value in v.$font-size {
+    --#{$size}: #{$value};
+  }
+}
+
+html {
+  font-family: Roboto-Regular, sans-serif;
+  line-height: 1.5;
+  color: var(--light-300);
+}
+
+body {
+  background: var(--dark-900);
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-family: Roboto-Bold, sans-serif;
+}
+
+h1 {
+  font-size: var(--heading-1);
+  line-height: clamp(2.8125rem, 1.6776rem + 4.386vi, 5.625rem);
+}
+
+h2 {
+  font-size: var(--heading-2);
+  line-height: clamp(1.6875rem, 0.9309rem + 2.924vi, 3.5625rem);
+}
