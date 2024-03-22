@@ -1,0 +1,26 @@
+@use "variables" as v;
+
+
+
+@mixin btn($theme, $radius: 5px) {
+  .btn-#{$theme} {
+    border-radius: $radius;
+    padding: 20px 30px;
+    @if $theme == "transparent" {
+      background: transparent;
+      border: 1px solid var(--light-300);
+    } @if $theme == "green" {
+      background: var(--accent-green);
+    } @if $theme == "amber" {
+        background: var(--accent-amber);
+    } @if $theme == "purple" {
+        background: var(--accent-amber);
+    }
+  }
+};
+
+@mixin btn-theme {
+  @for $i from 1 through 4 {
+    @include btn(nth(v.$btn-background, $i))
+  }
+}

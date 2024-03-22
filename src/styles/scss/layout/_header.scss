@@ -1,0 +1,77 @@
+.header {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+  align-items: center;
+}
+
+.header-logo {
+  align-items: center;
+  margin-right: 90px;
+}
+
+.company-logo {
+  width: 24px;
+  aspect-ratio: 1 / 1;
+  margin-right: 16px;
+}
+
+.nav-list {
+  gap: 24px;
+}
+
+.form-search input {
+  padding: 5px 0 5px 10px;
+  background: var(--dark-800);
+  border-radius: 50px;
+  color: hsl(0deg 0% 46%);
+}
+
+.form-search {
+  margin-left: auto;
+}
+
+.hero {
+  background: url("../../assets/images/banner.png") center / cover;
+}
+
+.hero-content {
+  text-align: center;
+
+  p {
+    margin: 31px 0 17px;
+  }
+}
+
+.hero-content * {
+  color: #fff;
+}
+
+.main-form {
+  margin: 0 auto;
+  max-width: 570px;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  input {
+    min-width: min(270px, 100%);
+    min-height: 50px;
+    padding-left: 20px;
+    background: transparent;
+    border: 2px solid var(--light-300);
+    border-radius: 2px;
+    flex: 2 2;
+  }
+
+  button {
+    min-width: 100%;
+  }
+}
+
+.main-form
+
+.main-form button {
+
+}
