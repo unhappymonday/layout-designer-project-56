@@ -3,6 +3,15 @@
     padding: 0 20px;
     width: 100%;
   }
+
+  .hero {
+    padding: 250px 0 200px;
+  }
+
+  .hero-content p {
+    margin: 16px 0;
+  }
+
   .header {
     font-family: roboto-bold;
   }
@@ -14,7 +23,7 @@
   }
 
   .nav-list {
-    gap: 3px;
+    gap: 0px;
     margin: 18px 0;
   }
 

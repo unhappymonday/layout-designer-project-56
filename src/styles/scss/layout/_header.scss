@@ -31,6 +31,11 @@
 
 .form-search {
   margin-left: auto;
+  flex-grow: 3;
+
+  input {
+    min-width: 248px;
+  }
 }
 
 .hero {
@@ -45,7 +50,7 @@
   }
 }
 
-.hero-content * {
+.main-form * {
   color: #fff;
 }
 
@@ -56,22 +61,21 @@
   gap: 1.5rem;
 
   input {
-    min-width: min(270px, 100%);
+    min-width: 270px;
     min-height: 50px;
     padding-left: 20px;
+    flex-grow: 2;
     background: transparent;
     border: 2px solid var(--light-300);
     border-radius: 2px;
-    flex: 2 2;
+  }
+
+  input::placeholder {
+    font-size: 14px;
   }
 
   button {
+    font-size: 14px;
     min-width: 100%;
   }
-}
-
-.main-form
-
-.main-form button {
-
 }

@@ -76,7 +76,8 @@ button {
 
 h1,
 h2 {
-  font-family: Roboto-Bold;
+  letter-spacing: -1px;
+  font-weight: 900;
   color: #fff;
 }
 
@@ -144,6 +145,10 @@ main {
 
 .form-search {
   margin-left: auto;
+  flex-grow: 3;
+}
+.form-search input {
+  min-width: 248px;
 }
 
 .hero {
@@ -157,7 +162,7 @@ main {
   margin: 31px 0 17px;
 }
 
-.hero-content * {
+.main-form * {
   color: #fff;
 }
 
@@ -168,15 +173,19 @@ main {
   gap: 1.5rem;
 }
 .main-form input {
-  min-width: min(270px, 100%);
+  min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
+  flex-grow: 2;
   background: transparent;
   border: 2px solid var(--light-300);
   border-radius: 2px;
-  flex: 2 2;
+}
+.main-form input::placeholder {
+  font-size: 14px;
 }
 .main-form button {
+  font-size: 14px;
   min-width: 100%;
 }
 
@@ -184,6 +193,12 @@ main {
   .container {
     padding: 0 20px;
     width: 100%;
+  }
+  .hero {
+    padding: 250px 0 200px;
+  }
+  .hero-content p {
+    margin: 16px 0;
   }
   .header {
     font-family: roboto-bold;
@@ -194,7 +209,7 @@ main {
     align-items: start;
   }
   .nav-list {
-    gap: 3px;
+    gap: 0px;
     margin: 18px 0;
   }
   .form-search {
