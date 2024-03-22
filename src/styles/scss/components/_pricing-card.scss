@@ -1,0 +1,39 @@
+@use "../abstracts/mixin" as m;
+
+@include pricing-back;
+
+.subscription > .flex-container {
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 366px;
+  height: 615px;
+  margin-bottom: 40px;
+}
+
+.pricing-title {
+  font-size: 24px;
+  margin-bottom: 200px;
+}
+
+.price-value {
+  font-size: 64px;
+  line-height: 1em;
+  margin-bottom: 40px;
+
+
+  span {
+    vertical-align: 10px;
+    font-size: 32px;
+
+  }
+}
+
+.pricing-footer {
+  margin-top: 64px;
+  font-size: 13px;
+}

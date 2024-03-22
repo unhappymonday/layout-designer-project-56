@@ -56,7 +56,7 @@ html {
   font-size: 16px;
   font-family: Roboto-Regular;
   line-height: 1.5;
-  color: var(--light-300);
+  color: #fff;
 }
 
 body {
@@ -65,8 +65,9 @@ body {
 
 h1,
 h2,
+h3,
 button,
-nav a {
+a {
   text-transform: uppercase;
 }
 
@@ -75,7 +76,8 @@ button {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   letter-spacing: -1px;
   font-weight: 900;
   color: #fff;
@@ -112,6 +114,20 @@ main {
   padding: 200px 0;
 }
 
+.py-100 {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin-bottom: 48px;
+}
+
+.hero-content,
+.subscription,
+.pricing-card {
+  text-align: center;
+}
+
 .header {
   position: absolute;
   top: 25px;
@@ -145,7 +161,6 @@ main {
 
 .form-search {
   margin-left: auto;
-  flex-grow: 3;
 }
 .form-search input {
   min-width: 248px;
@@ -155,9 +170,6 @@ main {
   background: url("../../assets/images/banner.png") center/cover;
 }
 
-.hero-content {
-  text-align: center;
-}
 .hero-content p {
   margin: 31px 0 17px;
 }
@@ -191,7 +203,8 @@ main {
 
 @media (max-width: 430px) {
   .container {
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
   }
   .hero {
@@ -214,6 +227,13 @@ main {
   }
   .form-search {
     margin: 0;
+    width: 100%;
+  }
+  .form-search input {
+    width: 100%;
+  }
+  .pricing-card {
+    width: 100%;
   }
 }
 .btn-transparent {
@@ -239,4 +259,49 @@ main {
   border-radius: 5px;
   padding: 20px 30px;
   background: var(--accent-amber);
+}
+
+.bg-free {
+  background: url("../../assets/images/free.png") center/cover;
+}
+
+.bg-standard {
+  background: url("../../assets/images/standard.png") center/cover;
+}
+
+.bg-premium {
+  background: url("../../assets/images/premium.png") center/cover;
+}
+
+.subscription > .flex-container {
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 366px;
+  height: 615px;
+  margin-bottom: 40px;
+}
+
+.pricing-title {
+  font-size: 24px;
+  margin-bottom: 200px;
+}
+
+.price-value {
+  font-size: 64px;
+  line-height: 1em;
+  margin-bottom: 40px;
+}
+.price-value span {
+  vertical-align: 10px;
+  font-size: 32px;
+}
+
+.pricing-footer {
+  margin-top: 64px;
+  font-size: 13px;
 }/*# sourceMappingURL=main.css.map */

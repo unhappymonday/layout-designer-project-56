@@ -31,7 +31,6 @@
 
 .form-search {
   margin-left: auto;
-  flex-grow: 3;
 
   input {
     min-width: 248px;
@@ -42,12 +41,8 @@
   background: url("../../assets/images/banner.png") center / cover;
 }
 
-.hero-content {
-  text-align: center;
-
-  p {
-    margin: 31px 0 17px;
-  }
+.hero-content p {
+  margin: 31px 0 17px;
 }
 
 .main-form * {

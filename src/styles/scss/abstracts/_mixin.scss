@@ -1,7 +1,5 @@
 @use "variables" as v;
 
-
-
 @mixin btn($theme, $radius: 5px) {
   .btn-#{$theme} {
     border-radius: $radius;
@@ -22,5 +20,14 @@
 @mixin btn-theme {
   @for $i from 1 through 4 {
     @include btn(nth(v.$btn-background, $i))
+  }
+}
+
+
+@mixin pricing-back {
+  @each $value in v.$pricing-card-back {
+    .bg-#{$value} {
+      background: url("../../assets/images/#{$value}.png") center / cover;
+    }
   }
 }
