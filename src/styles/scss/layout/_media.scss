@@ -39,4 +39,16 @@
   .pricing-card {
     width: 100%;
   }
+
+  .news-card {
+    flex-direction: column;
+
+    &:last-child > img {
+      order: 1;
+    }
+
+    .switch-order {
+      order: 2;
+    }
+  }
 }

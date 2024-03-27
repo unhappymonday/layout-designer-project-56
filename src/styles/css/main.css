@@ -237,6 +237,15 @@ main {
   .pricing-card {
     width: 100%;
   }
+  .news-card {
+    flex-direction: column;
+  }
+  .news-card:last-child > img {
+    order: 1;
+  }
+  .news-card .switch-order {
+    order: 2;
+  }
 }
 .btn-transparent {
   border-radius: 5px;
