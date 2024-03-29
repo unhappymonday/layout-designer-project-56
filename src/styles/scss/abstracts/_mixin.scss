@@ -38,3 +38,13 @@
     }
   }
 }
+
+@mixin social-link {
+  @each $value in v.$social {
+    .social-link-#{$value} {
+      background: url("../../assets/images/icons/#{$value}.png") no-repeat;
+      width: 26px;
+      height: 19px;
+    }
+  }
+}

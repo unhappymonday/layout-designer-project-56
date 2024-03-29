@@ -64,4 +64,10 @@
   .section-app-img {
     order: 0;
   }
+
+  .footer-navigation,
+  .footer-down-navigation ul {
+    flex-direction: column;
+  }
+
 }
