@@ -55,7 +55,7 @@ button {
 
 html {
   font-size: 16px;
-  font-family: Roboto-Regular;
+  font-family: Roboto-Regular, sans-serif;
   line-height: 1.5;
   color: #fff;
 }
@@ -126,7 +126,8 @@ main {
 .hero-content,
 .subscription,
 .pricing-card,
-.news {
+.news,
+.section-app > h2 {
   text-align: center;
 }
 
@@ -154,18 +155,16 @@ main {
   gap: 24px;
 }
 
+.form-search {
+  margin-left: auto;
+}
+
 .form-search input {
+  min-width: 248px;
   padding: 5px 0 5px 10px;
   background: var(--dark-800);
   border-radius: 50px;
   color: hsl(0, 0%, 46%);
-}
-
-.form-search {
-  margin-left: auto;
-}
-.form-search input {
-  min-width: 248px;
 }
 
 .hero {
@@ -203,7 +202,7 @@ main {
   min-width: 100%;
 }
 
-@media (max-width: 430px) {
+@media (width <= 430px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -216,7 +215,7 @@ main {
     margin: 16px 0;
   }
   .header {
-    font-family: roboto-bold;
+    font-family: roboto-bold, "Times New Roman", serif;
   }
   .header,
   .nav-list {
@@ -224,7 +223,7 @@ main {
     align-items: start;
   }
   .nav-list {
-    gap: 0px;
+    gap: 0;
     margin: 18px 0;
   }
   .form-search {
@@ -246,7 +245,31 @@ main {
   .news-card .switch-order {
     order: 2;
   }
+  .section-app-container {
+    flex-direction: column;
+  }
+  .section-app-content {
+    order: 1;
+  }
+  .section-app-img {
+    order: 0;
+  }
 }
+.section-app-container {
+  align-items: start;
+}
+
+.section-app-content {
+  width: min(600px, 100%);
+}
+.section-app-content p {
+  margin: 16px 0;
+}
+
+.section-app-img {
+  margin: 0 auto;
+}
+
 .btn-transparent {
   border-radius: 5px;
   padding: 20px 30px;
@@ -274,6 +297,13 @@ main {
 
 .pricing-card > a {
   width: 100%;
+}
+
+.btn-special {
+  border-radius: 32px;
+  padding: 16px 40px;
+  font-size: 12.8px;
+  color: #fff;
 }
 
 .bg-free {

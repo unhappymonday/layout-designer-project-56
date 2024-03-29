@@ -12,7 +12,7 @@
 
 html {
   font-size: 16px;
-  font-family: Roboto-Regular;
+  font-family: Roboto-Regular, sans-serif;
   line-height: 1.5;
   color: #fff;
 }
@@ -83,6 +83,7 @@ main {
 .hero-content,
 .subscription,
 .pricing-card,
-.news {
+.news,
+.section-app > h2 {
   text-align: center;
 }

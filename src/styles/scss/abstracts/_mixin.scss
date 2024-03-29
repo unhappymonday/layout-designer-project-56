@@ -4,14 +4,21 @@
   .btn-#{$theme} {
     border-radius: $radius;
     padding: 20px 30px;
+
     @if $theme == "transparent" {
       background: transparent;
       border: 1px solid var(--light-300);
-    } @if $theme == "green" {
+    }
+
+    @if $theme == "green" {
       background: var(--accent-green);
-    } @if $theme == "amber" {
+    }
+
+    @if $theme == "amber" {
         background: var(--accent-amber);
-    } @if $theme == "purple" {
+    }
+
+    @if $theme == "purple" {
         background: var(--accent-amber);
     }
   }

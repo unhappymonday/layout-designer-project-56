@@ -22,19 +22,16 @@
   gap: 24px;
 }
 
+.form-search {
+  margin-left: auto;
+}
+
 .form-search input {
+  min-width: 248px;
   padding: 5px 0 5px 10px;
   background: var(--dark-800);
   border-radius: 50px;
   color: hsl(0deg 0% 46%);
-}
-
-.form-search {
-  margin-left: auto;
-
-  input {
-    min-width: 248px;
-  }
 }
 
 .hero {
