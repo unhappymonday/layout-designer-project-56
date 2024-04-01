@@ -1,5 +1,6 @@
 @use "../abstracts/mixin" as m;
 @include m.btn-theme;
+@include m.btn-icons;
 
 .pricing-card > a {
   width: 100%;

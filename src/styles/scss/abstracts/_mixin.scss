@@ -2,8 +2,11 @@
 
 @mixin btn($theme, $radius: 5px) {
   .btn-#{$theme} {
+    position: relative;
     border-radius: $radius;
     padding: 20px 30px;
+    width: 200px;
+    font-size: 12.8px;
 
     @if $theme == "transparent" {
       background: transparent;
@@ -19,7 +22,7 @@
     }
 
     @if $theme == "purple" {
-        background: var(--accent-amber);
+        background: var(--accent-purple);
     }
   }
 };
@@ -27,6 +30,20 @@
 @mixin btn-theme {
   @for $i from 1 through 4 {
     @include btn(nth(v.$btn-background, $i))
+  }
+}
+
+@mixin btn-icons {
+  @each $value in v.$button {
+    .icon-#{$value}::before {
+      content: "";
+      background: url("../../assets/images/icons/#{$value}.svg") no-repeat;
+      width: 20px;
+      aspect-ratio: 1 / 1;
+      left: 31px;
+      top: calc(50% - 10px);
+      position: absolute;
+    }
   }
 }
 

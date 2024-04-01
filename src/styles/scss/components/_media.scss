@@ -70,4 +70,12 @@
     flex-direction: column;
   }
 
+  .controls-container {
+
+    button:nth-child(1) {
+      margin-right: 0;
+      margin-bottom: 1.5rem;
+    }
+  }
+
 }
