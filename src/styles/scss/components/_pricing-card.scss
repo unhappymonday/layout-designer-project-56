@@ -7,7 +7,7 @@
 }
 
 .pricing-card {
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 0;
   border-radius: 1rem;
   width: 366px;
 
@@ -23,7 +23,6 @@
 
 .price-value {
   font-size: 64px;
-  line-height: 1em;
   margin-bottom: 40px;
 
 
@@ -35,6 +34,6 @@
 }
 
 .pricing-footer {
-  margin-top: 64px;
+  padding: 64px 0;
   font-size: 13px;
 }

@@ -132,7 +132,6 @@ main {
 .hero-content,
 .subscription,
 .pricing-card,
-.news,
 .section-app > h2 {
   text-align: center;
 }
@@ -418,7 +417,7 @@ main {
 }
 
 .pricing-card {
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 0;
   border-radius: 1rem;
   width: 366px;
 }
@@ -433,7 +432,6 @@ main {
 
 .price-value {
   font-size: 64px;
-  line-height: 1em;
   margin-bottom: 40px;
 }
 .price-value span {
@@ -442,7 +440,7 @@ main {
 }
 
 .pricing-footer {
-  margin-top: 64px;
+  padding: 64px 0;
   font-size: 13px;
 }
 
@@ -455,32 +453,36 @@ main {
 .news-card:last-child > img {
   order: 2;
 }
-.news-card .news-body,
-.news-card .news-footer {
+
+.news-body,
+.news-footer {
   text-align: start;
 }
-.news-card .news-title {
+
+.news-title {
   font-size: var(--heading-3);
   font-weight: normal;
   line-height: clamp(1.5rem, 0.8735rem + 2.4213vi, 2.75rem);
   text-transform: none;
   padding-bottom: 30px;
 }
-.news-card .news-preview {
+
+.news-preview {
   padding-bottom: 24px;
 }
-.news-card .news-author {
+
+.news-author {
   gap: 16px;
 }
-.news-card .news-author p:not(:last-child) {
+.news-author p:not(:last-child) {
   color: hsl(35, 98%, 49%);
 }
-.news-card .news-author p {
+.news-author p {
   font-size: 12.8px;
 }
 
 .news-footer a {
-  margin: 48px 0 18px;
+  margin: 48px 0 28px;
 }
 
 .column {
@@ -566,6 +568,9 @@ main {
   }
   .news-card .switch-order {
     order: 2;
+  }
+  .news-title {
+    padding-bottom: 16px;
   }
   .news-footer a {
     margin: 48px 0 0;
