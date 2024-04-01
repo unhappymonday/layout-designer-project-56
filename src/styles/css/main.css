@@ -246,7 +246,6 @@ main {
 }
 
 .section-app-container {
-  padding: 100px 0;
   align-items: start;
 }
 
@@ -405,9 +404,9 @@ main {
   background: url("../../assets/images/premium.png") center/cover;
 }
 
-.subscription > .flex-container {
+.pricing-content {
+  margin-bottom: 40px;
   gap: 50px;
-  flex-wrap: wrap;
 }
 
 .pricing-card {
@@ -415,7 +414,9 @@ main {
   border-radius: 1rem;
   width: 366px;
   height: 615px;
-  margin-bottom: 40px;
+}
+.pricing-card a {
+  font-size: 16px;
 }
 
 .pricing-title {
@@ -553,7 +554,8 @@ main {
   .news-card .switch-order {
     order: 2;
   }
-  .section-app-container {
+  .section-app-container,
+  .pricing-content {
     flex-direction: column;
   }
   .section-app-content {

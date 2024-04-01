@@ -1,9 +1,9 @@
 @use "../abstracts/mixin" as m;
 @include pricing-back;
 
-.subscription > .flex-container {
+.pricing-content {
+  margin-bottom: 40px;
   gap: 50px;
-  flex-wrap: wrap;
 }
 
 .pricing-card {
@@ -11,7 +11,10 @@
   border-radius: 1rem;
   width: 366px;
   height: 615px;
-  margin-bottom: 40px;
+
+  a {
+    font-size: 16px;
+  }
 }
 
 .pricing-title {
