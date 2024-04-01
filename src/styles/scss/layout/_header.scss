@@ -39,8 +39,10 @@
 }
 
 .hero-artist {
-  background: url("../../assets/images/Morten Harket.png") center / cover;
-  padding: 250px 0 224px;
+  background: url("../../assets/images/Morten Harket.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 250px 0 228px;
 }
 
 .hero-content p {

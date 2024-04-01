@@ -101,7 +101,6 @@ main {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .flex-container {
@@ -196,8 +195,10 @@ main {
 }
 
 .hero-artist {
-  background: url("../../assets/images/Morten Harket.png") center/cover;
-  padding: 250px 0 224px;
+  background: url("../../assets/images/Morten Harket.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 250px 0 228px;
 }
 
 .hero-content p {
@@ -418,9 +419,9 @@ main {
 }
 
 .pricing-card {
-  padding: 1.5rem 1.5rem 0;
+  padding: 1.5rem 26px 0;
   border-radius: 1rem;
-  width: 366px;
+  width: 400px;
 }
 .pricing-card a {
   font-size: 16px;
@@ -429,12 +430,12 @@ main {
 .pricing-title {
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 200px;
+  margin-bottom: 190px;
 }
 
 .price-value {
   font-size: 64px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .price-value span {
   vertical-align: 20px;
@@ -533,6 +534,8 @@ main {
 @media (width <= 430px) {
   .container {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .hero {
     padding: 250px 0 200px;
