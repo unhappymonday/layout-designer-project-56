@@ -471,6 +471,28 @@ main {
   aspect-ratio: 1/1;
 }
 
+.discography-content {
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.cover-album-big {
+  width: 250px;
+  aspect-ratio: 1/1;
+}
+
+.discography-item {
+  width: 250px;
+  flex-direction: column;
+}
+
+.discography-info {
+  margin-top: 18px;
+}
+.discography-info h3 {
+  text-transform: none;
+}
+
 @media (width <= 430px) {
   .container {
     width: 100%;
@@ -531,5 +553,9 @@ main {
   }
   .column {
     grid-template-columns: 1fr;
+  }
+  .discography-item,
+  .cover-album-big {
+    width: 137px;
   }
 }/*# sourceMappingURL=main.css.map */

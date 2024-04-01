@@ -79,4 +79,9 @@
   .column {
     grid-template-columns: 1fr;
   }
+
+  .discography-item,
+  .cover-album-big {
+    width: 137px;
+  }
 }
