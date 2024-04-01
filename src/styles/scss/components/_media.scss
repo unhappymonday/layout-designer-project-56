@@ -1,7 +1,5 @@
 @media (width <= 430px) {
   .container {
-    padding-left: 20px;
-    padding-right: 20px;
     width: 100%;
   }
 
@@ -78,4 +76,7 @@
     }
   }
 
+  .column {
+    grid-template-columns: 1fr;
+  }
 }
