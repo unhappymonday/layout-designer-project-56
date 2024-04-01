@@ -3,7 +3,7 @@
   gap: 50px;
 
   &:not(:last-child) {
-    margin-bottom: 65px;
+    margin-bottom: 64px;
   }
 
   &:last-child > img {
@@ -27,9 +27,16 @@
     padding-bottom: 24px;
   }
 
-  .news-author p {
-    color: hsl(35deg 98% 49%);
-    padding: 0 16px;
+  .news-author {
+    gap: 16px;
+
+    p:not(:last-child) {
+      color: hsl(35deg 98% 49%);
+    }
+
+    p {
+      font-size: 12.8px;
+    }
   }
 }
 
