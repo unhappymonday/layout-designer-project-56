@@ -116,6 +116,11 @@ main {
   padding: 200px 0;
 }
 
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -129,6 +134,25 @@ main {
 .pricing-card,
 .news,
 .section-app > h2 {
+  text-align: center;
+}
+
+.discography-item,
+.similar-item {
+  flex-direction: column;
+}
+
+.similar-content,
+.discography-content {
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.cover-card {
+  width: 250px;
+}
+
+.similar-item {
   text-align: center;
 }
 
@@ -471,26 +495,21 @@ main {
   aspect-ratio: 1/1;
 }
 
-.discography-content {
-  flex-wrap: wrap;
-  gap: 25px 50px;
-}
-
 .cover-album-big {
-  width: 250px;
   aspect-ratio: 1/1;
 }
 
-.discography-item {
-  width: 250px;
-  flex-direction: column;
-}
-
-.discography-info {
+.discography-info,
+.similar-info {
   margin-top: 18px;
 }
-.discography-info h3 {
+.discography-info h3,
+.similar-info h3 {
   text-transform: none;
+}
+.discography-info p,
+.similar-info p {
+  color: var(--light-200);
 }
 
 @media (width <= 430px) {
@@ -554,8 +573,7 @@ main {
   .column {
     grid-template-columns: 1fr;
   }
-  .discography-item,
-  .cover-album-big {
+  .cover-card {
     width: 137px;
   }
 }/*# sourceMappingURL=main.css.map */

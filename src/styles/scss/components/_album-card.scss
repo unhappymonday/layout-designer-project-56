@@ -1,22 +1,16 @@
-.discography-content {
-  flex-wrap: wrap;
-  gap: 25px 50px;
-}
-
 .cover-album-big {
-  width: 250px;
   aspect-ratio: 1 / 1;
 }
 
-.discography-item {
-  width: 250px;
-  flex-direction: column;
-}
-
-.discography-info {
+.discography-info,
+.similar-info {
   margin-top: 18px;
 
   h3 {
     text-transform: none;
+  }
+
+  p {
+    color: var(--light-200);
   }
 }
