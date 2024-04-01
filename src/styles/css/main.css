@@ -197,7 +197,7 @@ main {
 
 .hero-artist {
   background: url("../../assets/images/Morten Harket.png") center/cover;
-  padding: 250px 0 220px;
+  padding: 250px 0 224px;
 }
 
 .hero-content p {
@@ -225,9 +225,10 @@ main {
 }
 .main-form input::placeholder {
   font-size: 14px;
+  color: #fff;
 }
 .main-form button {
-  font-size: 14px;
+  font-size: 13.3px;
   min-width: 100%;
 }
 
@@ -317,7 +318,7 @@ main {
 }
 
 .footer-down-navigation {
-  padding: 2rem 0;
+  padding: 40px 0 50px;
   border-top: 1px solid var(--light-300);
 }
 .footer-down-navigation ul {
@@ -427,6 +428,7 @@ main {
 
 .pricing-title {
   font-size: 24px;
+  font-weight: normal;
   margin-bottom: 200px;
 }
 
@@ -441,7 +443,7 @@ main {
 
 .pricing-footer {
   padding: 64px 0;
-  font-size: 13px;
+  font-size: 12.8px;
 }
 
 .news-card {
@@ -550,6 +552,9 @@ main {
     gap: 0;
     margin: 18px 0;
   }
+  .hero-artist {
+    padding: 225px 0;
+  }
   .form-search {
     margin: 0;
     width: 100%;
@@ -559,6 +564,10 @@ main {
   }
   .pricing-card {
     width: 100%;
+  }
+  .pricing-title {
+    font-size: 16px;
+    font-weight: normal;
   }
   .news-card {
     flex-direction: column;
