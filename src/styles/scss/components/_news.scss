@@ -40,14 +40,14 @@
 
 .news-author {
   gap: 16px;
+}
 
-  .news-author p {
-    font-size: 12.8px;
-  }
+.news-author p {
+  font-size: 12.8px;
+}
 
-  p:not(:last-child) {
-    color: hsl(35deg 98% 49%);
-  }
+.news-author p:not(:last-child) {
+  color: hsl(35deg 98% 49%);
 }
 
 .news-footer a {

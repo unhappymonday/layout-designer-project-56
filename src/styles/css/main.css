@@ -511,9 +511,11 @@ main {
 .news-author {
   gap: 16px;
 }
-.news-author .news-author p {
+
+.news-author p {
   font-size: 12.8px;
 }
+
 .news-author p:not(:last-child) {
   color: hsl(35, 98%, 49%);
 }
