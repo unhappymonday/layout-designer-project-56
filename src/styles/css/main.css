@@ -473,7 +473,7 @@ main {
   gap: 50px;
 }
 .news-card:not(:last-child) {
-  margin-bottom: 64px;
+  margin-bottom: 54px;
 }
 .news-card:last-child > img {
   order: 2;
@@ -646,6 +646,12 @@ main {
   }
   .section-app-img {
     order: 0;
+  }
+  .discography-info .special {
+    font-size: 18px;
+  }
+  .news-card:not(:last-child) {
+    margin-bottom: 64px;
   }
   .footer-navigation,
   .footer-down-navigation ul {
