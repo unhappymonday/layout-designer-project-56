@@ -81,11 +81,6 @@ main {
   padding-top: 100px;
 }
 
-.px-20 {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .section-title {
   margin-bottom: 48px;
 }
@@ -93,6 +88,7 @@ main {
 .hero-content,
 .subscription,
 .pricing-card,
+.news > h2,
 .section-app > h2 {
   text-align: center;
 }

@@ -3,17 +3,26 @@
   gap: 50px;
 
   &:not(:last-child) {
-    margin-bottom: 64px;
+    margin-bottom: 62px;
   }
 
   &:last-child > img {
     order: 2;
+  }
+
+  h2 {
+    letter-spacing: 1;
   }
 }
 
 .news-body,
 .news-footer {
   text-align: start;
+}
+
+.news-cover {
+  width: 575px;
+  height: 286px;
 }
 
 .news-title {
@@ -25,6 +34,7 @@
 }
 
 .news-preview {
+  color: var(--light-300);
   padding-bottom: 24px;
 }
 
@@ -41,5 +51,11 @@
 }
 
 .news-footer a {
-  margin: 48px 0 28px;
+  margin: 48px 0 18px;
+
+  .btn-margin {
+    margin: 48px 0 28px;
+  }
 }
+
+

@@ -124,11 +124,6 @@ main {
   padding-top: 100px;
 }
 
-.px-20 {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .section-title {
   margin-bottom: 48px;
 }
@@ -136,6 +131,7 @@ main {
 .hero-content,
 .subscription,
 .pricing-card,
+.news > h2,
 .section-app > h2 {
   text-align: center;
 }
@@ -200,10 +196,8 @@ main {
 }
 
 .hero-artist {
-  background: url("../../assets/images/Morten Harket.png") no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 250px 0 228px;
+  background: url("../../assets/images/Morten Harket.png") center/cover;
+  padding: 250px 0 224px;
 }
 
 .hero-content p {
@@ -424,7 +418,7 @@ main {
 }
 
 .pricing-card {
-  padding: 1.5rem 26px 0;
+  padding: 1.5rem 1.5rem 0;
   border-radius: 1rem;
   width: 400px;
 }
@@ -456,15 +450,23 @@ main {
   gap: 50px;
 }
 .news-card:not(:last-child) {
-  margin-bottom: 64px;
+  margin-bottom: 62px;
 }
 .news-card:last-child > img {
   order: 2;
+}
+.news-card h2 {
+  letter-spacing: 1;
 }
 
 .news-body,
 .news-footer {
   text-align: start;
+}
+
+.news-cover {
+  width: 575px;
+  height: 286px;
 }
 
 .news-title {
@@ -476,6 +478,7 @@ main {
 }
 
 .news-preview {
+  color: var(--light-300);
   padding-bottom: 24px;
 }
 
@@ -490,6 +493,9 @@ main {
 }
 
 .news-footer a {
+  margin: 48px 0 18px;
+}
+.news-footer a .btn-margin {
   margin: 48px 0 28px;
 }
 
@@ -541,10 +547,6 @@ main {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-  }
-  .px-20 {
-    padding-left: 0;
-    padding-right: 0;
   }
   .hero {
     padding: 250px 0 200px;
