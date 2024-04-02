@@ -20,14 +20,15 @@
   text-align: start;
 }
 
-.news-cover {
+.news-cover,
+.news-body {
   width: 575px;
 }
 
 .news-title {
-  font-size: var(--heading-3);
+  font-size: 30px;
   font-weight: normal;
-  line-height: clamp(1.5rem, 0.8735rem + 2.4213vi, 2.75rem);
+  line-height: 45px;
   text-transform: none;
   padding-bottom: 30px;
 }
