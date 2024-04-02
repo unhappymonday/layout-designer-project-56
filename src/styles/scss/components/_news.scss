@@ -41,12 +41,12 @@
 .news-author {
   gap: 16px;
 
-  p:not(:last-child) {
-    color: hsl(35deg 98% 49%);
-  }
-
   p {
     font-size: 12.8px;
+  }
+
+  p:not(:last-child) {
+    color: hsl(35deg 98% 49%);
   }
 }
 

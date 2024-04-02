@@ -259,11 +259,11 @@ main {
 .controls-container {
   margin-top: 48px;
 }
-.controls-container button:nth-child(1) {
-  margin-right: 1.5rem;
-}
 .controls-container button {
   text-align: center;
+}
+.controls-container button:nth-child(1) {
+  margin-right: 1.5rem;
 }
 
 .section-app-container {
@@ -511,11 +511,11 @@ main {
 .news-author {
   gap: 16px;
 }
-.news-author p:not(:last-child) {
-  color: hsl(35, 98%, 49%);
-}
 .news-author p {
   font-size: 12.8px;
+}
+.news-author p:not(:last-child) {
+  color: hsl(35, 98%, 49%);
 }
 
 .news-footer a {
