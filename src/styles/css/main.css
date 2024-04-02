@@ -208,10 +208,12 @@ main {
   padding: 250px 0 224px;
 }
 
+.section-hero-artist h1,
 .hero-content h1 {
   font-size: 60px;
   line-height: 90px;
 }
+.section-hero-artist h2,
 .hero-content h2 {
   font-size: 30px;
   line-height: 57px;
@@ -569,10 +571,12 @@ main {
   .hero {
     padding: 250px 0 200px;
   }
+  .section-hero-artist h1,
   .hero-content h1 {
     font-size: 30px;
     line-height: 45px;
   }
+  .section-hero-artist h2,
   .hero-content h2 {
     font-size: 18px;
     line-height: 27px;
@@ -590,7 +594,7 @@ main {
   }
   .nav-list {
     gap: 0;
-    margin: 18px 0;
+    margin: 16px 0;
   }
   .nav-list-home {
     margin-top: 16px;
