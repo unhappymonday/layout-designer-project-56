@@ -215,7 +215,7 @@ main {
 }
 .section-hero-artist h2,
 .hero-content h2 {
-  font-size: 30px;
+  font-size: 38px;
   line-height: 57px;
 }
 
@@ -451,13 +451,15 @@ main {
 
 .pricing-title {
   font-size: 24px;
+  line-height: 36px;
   font-weight: normal;
   margin-bottom: 190px;
 }
 
 .price-value {
   font-size: 64px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  line-height: 1em;
 }
 .price-value span {
   vertical-align: 20px;
@@ -473,7 +475,7 @@ main {
   gap: 50px;
 }
 .news-card:not(:last-child) {
-  margin-bottom: 62px;
+  margin-bottom: 64px;
 }
 .news-card:last-child > img {
   order: 2;
@@ -610,11 +612,12 @@ main {
     width: 100%;
   }
   .pricing-card {
-    padding-top: 16px;
+    padding-top: 14px;
     width: 100%;
   }
   .pricing-title {
     font-size: 16px;
+    line-height: 24px;
     font-weight: normal;
   }
   .news-card {
