@@ -84,11 +84,6 @@ h3 {
   color: #fff;
 }
 
-h1 {
-  font-size: var(--heading-1);
-  line-height: clamp(2.8125rem, 1.6776rem + 4.386vi, 5.625rem);
-}
-
 h2 {
   font-size: var(--heading-2);
   line-height: clamp(1.6875rem, 0.9309rem + 2.924vi, 3.5625rem);
@@ -211,6 +206,15 @@ main {
 .hero-artist {
   background: url("../../assets/images/Morten Harket.png") center/cover;
   padding: 250px 0 224px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 90px;
+}
+.hero-content h2 {
+  font-size: 30px;
+  line-height: 57px;
 }
 
 .hero-content p {
@@ -565,6 +569,14 @@ main {
   .hero {
     padding: 250px 0 200px;
   }
+  .hero-content h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .hero-content h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
   .hero-content p {
     margin: 16px 0;
   }
@@ -578,7 +590,7 @@ main {
   }
   .nav-list {
     gap: 0;
-    margin: 18px 0;
+    margin: 16px 0;
   }
   .hero-artist {
     padding: 225px 0 230px;

@@ -7,6 +7,18 @@
     padding: 250px 0 200px;
   }
 
+  .hero-content {
+    h1 {
+      font-size: 30px;
+      line-height: 45px;
+    }
+
+    h2 {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
   .hero-content p {
     margin: 16px 0;
   }
@@ -23,7 +35,7 @@
 
   .nav-list {
     gap: 0;
-    margin: 18px 0;
+    margin: 16px 0;
   }
 
   .hero-artist {
