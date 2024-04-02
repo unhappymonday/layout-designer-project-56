@@ -651,6 +651,12 @@ main {
   .discography-info .special {
     font-size: 18px;
   }
+  .subscription {
+    padding-top: 190px;
+  }
+  .news-card {
+    padding-top: 190px;
+  }
   .news-card .news-title {
     font-size: 16px;
     line-height: 27px;
