@@ -422,15 +422,18 @@ main {
 }
 
 .bg-free {
-  background: url("../../assets/images/free.png") center/cover;
+  background: url("../../assets/images/free.png") no-repeat;
+  background-size: cover;
 }
 
 .bg-standard {
-  background: url("../../assets/images/standard.png") center/cover;
+  background: url("../../assets/images/standard.png") no-repeat;
+  background-size: cover;
 }
 
 .bg-premium {
-  background: url("../../assets/images/premium.png") center/cover;
+  background: url("../../assets/images/premium.png") no-repeat;
+  background-size: cover;
 }
 
 .pricing-content {
@@ -609,7 +612,7 @@ main {
     width: 100%;
   }
   .pricing-card {
-    padding-top: 14px;
+    padding-top: 16px;
     width: 100%;
   }
   .pricing-title {

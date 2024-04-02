@@ -51,7 +51,8 @@
 @mixin pricing-back {
   @each $value in v.$pricing-card-back {
     .bg-#{$value} {
-      background: url("../../assets/images/#{$value}.png") center / cover;
+      background: url("../../assets/images/#{$value}.png") no-repeat;
+      background-size: cover;
     }
   }
 }
