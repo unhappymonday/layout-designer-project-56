@@ -126,7 +126,6 @@ main {
 }
 
 .section-title {
-  font-family: Roboto-Bold;
   margin-bottom: 48px;
 }
 
@@ -571,7 +570,7 @@ main {
     width: 100%;
   }
   .hero {
-    padding: 250px 0 200px;
+    padding: 248px 0 200px;
   }
   .section-hero-artist h1,
   .hero-content h1 {
@@ -587,7 +586,7 @@ main {
     margin: 16px 0;
   }
   .header {
-    font-family: roboto-bold, "Times New Roman", serif;
+    font-family: roboto-bold, sans-serif;
   }
   .header,
   .nav-list {
@@ -618,7 +617,10 @@ main {
   .pricing-title {
     font-size: 16px;
     line-height: 24px;
-    font-weight: normal;
+    font-weight: bold;
+  }
+  .price-value {
+    margin-bottom: 45px;
   }
   .news-card {
     flex-direction: column;
