@@ -79,7 +79,6 @@ button {
 h1,
 h2,
 h3 {
-  letter-spacing: -1px;
   font-weight: 900;
   color: #fff;
 }
@@ -516,9 +515,6 @@ main {
 }
 
 .news-footer a {
-  margin: 48px 0 18px;
-}
-.news-footer a .btn-margin {
   margin: 48px 0 28px;
 }
 
@@ -617,7 +613,7 @@ main {
   .pricing-title {
     font-size: 16px;
     line-height: 24px;
-    font-weight: bold;
+    font-weight: normal;
   }
   .price-value {
     margin-bottom: 45px;
