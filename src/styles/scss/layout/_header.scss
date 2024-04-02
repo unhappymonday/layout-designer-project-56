@@ -20,6 +20,14 @@
 
 .nav-list {
   gap: 24px;
+
+  a {
+    color: var(--light-300);
+  }
+
+  a:hover {
+    color: var(--light-200);
+  }
 }
 
 .form-search {

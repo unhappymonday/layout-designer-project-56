@@ -180,6 +180,12 @@ main {
 .nav-list {
   gap: 24px;
 }
+.nav-list a {
+  color: var(--light-300);
+}
+.nav-list a:hover {
+  color: var(--light-200);
+}
 
 .form-search {
   margin-left: auto;
@@ -435,12 +441,12 @@ main {
 .pricing-title {
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 190px;
+  margin-bottom: 200px;
 }
 
 .price-value {
   font-size: 64px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .price-value span {
   vertical-align: 20px;
@@ -570,7 +576,7 @@ main {
     margin: 18px 0;
   }
   .hero-artist {
-    padding: 225px 0;
+    padding: 230px 0 224px;
   }
   .form-search {
     margin: 0;
@@ -580,10 +586,8 @@ main {
     width: 100%;
   }
   .pricing-card {
+    padding-top: 16px;
     width: 100%;
-  }
-  .pricing-content {
-    gap: 45px;
   }
   .pricing-title {
     font-size: 16px;
