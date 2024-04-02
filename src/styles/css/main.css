@@ -623,14 +623,22 @@ main {
   .news-card {
     flex-direction: column;
   }
+  .news-card .news-title {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+  .news-card .news-body {
+    width: 100%;
+  }
+  .news-card:not(:last-child) {
+    margin-bottom: 64px;
+  }
   .news-card:last-child > img {
     order: 1;
   }
   .news-card .switch-order {
     order: 2;
-  }
-  .news-title {
-    padding-bottom: 16px;
   }
   .news-footer a {
     margin: 48px 0 0;
@@ -650,16 +658,6 @@ main {
   }
   .discography-info .special {
     font-size: 18px;
-  }
-  .news-card .news-title {
-    font-size: 16px;
-    line-height: 27px;
-  }
-  .news-card .news-body {
-    width: 100%;
-  }
-  .news-card:not(:last-child) {
-    margin-bottom: 64px;
   }
   .footer-navigation,
   .footer-down-navigation ul {
