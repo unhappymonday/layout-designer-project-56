@@ -120,6 +120,11 @@ main {
   padding-bottom: 100px;
 }
 
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -245,6 +250,9 @@ main {
 .controls-container button:nth-child(1) {
   margin-right: 1.5rem;
 }
+.controls-container button {
+  text-align: center;
+}
 
 .section-app-container {
   align-items: start;
@@ -252,6 +260,7 @@ main {
 
 .section-app-content {
   width: min(600px, 100%);
+  color: var(--light-300);
 }
 .section-app-content p {
   margin: 16px 0;
@@ -367,7 +376,7 @@ main {
   background: url("../../assets/images/icons/heart.svg") no-repeat;
   width: 20px;
   aspect-ratio: 1/1;
-  left: 31px;
+  left: 30px;
   top: calc(50% - 10px);
   position: absolute;
 }
@@ -377,7 +386,7 @@ main {
   background: url("../../assets/images/icons/play.svg") no-repeat;
   width: 20px;
   aspect-ratio: 1/1;
-  left: 31px;
+  left: 30px;
   top: calc(50% - 10px);
   position: absolute;
 }
@@ -466,7 +475,6 @@ main {
 
 .news-cover {
   width: 575px;
-  height: 286px;
 }
 
 .news-title {
@@ -578,6 +586,9 @@ main {
   }
   .pricing-card {
     width: 100%;
+  }
+  .pricing-content {
+    gap: 45px;
   }
   .pricing-title {
     font-size: 16px;
