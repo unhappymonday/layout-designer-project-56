@@ -553,6 +553,7 @@ main {
 }
 .discography-info h3,
 .similar-info h3 {
+  font-size: 17px;
   text-transform: none;
   line-height: 27px;
 }
